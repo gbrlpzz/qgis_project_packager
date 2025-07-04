@@ -2,7 +2,7 @@
 
 ## Overview
 
-**QGIS Project Packager** is a Python script designed to consolidate all files referenced by a QGIS project into a single, portable package. It automatically finds, copies, and organizes all data sources (including shapefiles, rasters, and zipped layers) used in your project, updates the project file to use relative paths, and creates a clean, zipped folder for easy sharing or archiving.
+**QGIS Project Packager** is a Python script designed to consolidate all files referenced by a QGIS project into a single, portable package. It automatically finds, copies, and organizes all data sources (including vectors, rasters, and zipped layers) used in your project, updates the project file to use relative paths, and creates a clean, zipped folder for easy sharing or archiving.
 
 ## Features
 - **Finds all referenced files** (even with complex or broken paths)
