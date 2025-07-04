@@ -34,7 +34,7 @@ YourProject_packaged/
 ## Usage
 1. **Open your QGIS project** (.qgs or .qgz)
 2. **Open the QGIS Python Console** (Plugins > Python Console)
-3. **Copy and paste the script** (`qgis_project_packager_beast.py`) into the console and run it
+3. **Copy and paste the script** (`qgis_project_packager.py`) into the console and run it
 4. The script will:
     - Create a folder named `<YourProject>_packaged` in the same directory as your project
     - Copy all referenced files into a `Links/` subdirectory
@@ -45,6 +45,8 @@ YourProject_packaged/
 - **Missing files**: The script aggressively searches parent directories, but if files are truly missing, they will be reported in the console output.
 - **Duplicate names**: Files with the same name from different folders are kept separate in `Links/<parent_folder>/`.
 - **Runs only in QGIS**: The script must be run from the QGIS Python Console (not standalone Python).
+- **Orderliness**: the orderliness of the final links folder will be directly proporional to the orderliness of your original file management, just all in the same place.
+
 
 ## Contact
 For questions, issues, or contributions, please open an issue or contact the maintainer. 
