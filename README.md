@@ -10,8 +10,7 @@
 - **Copies all sidecar files** for shapefiles
 - **Supports .qgs and .qgz projects**
 - **Packages everything into a single ZIP**
-- **Professional, clean output structure**
-- **Technical, concise console output**
+- **Clean output structure**
 
 ## Output Structure
 ```
