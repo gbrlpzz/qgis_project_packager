@@ -47,6 +47,3 @@ YourProject_packaged/
 - **Runs only in QGIS**: The script must be run from the QGIS Python Console (not standalone Python).
 - **Orderliness**: the orderliness of the final links folder will be directly proporional to the orderliness of your original file management, just all in the same place.
 
-
-## Contact
-For questions, issues, or contributions, please open an issue or contact the maintainer. 
